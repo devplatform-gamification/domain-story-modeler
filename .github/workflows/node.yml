@@ -14,8 +14,8 @@ jobs:
       m2: ./.m2
       GITHUB_ACTOR: $GITHUB_ACTOR
       GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
-       REGISTRY_PACKAGE_GROUP: devplatform-gamification/domain-story-modeler
-       REGISTRY_PACKAGE_NAME: domain-story-modeler
+      REGISTRY_PACKAGE_GROUP: devplatform-gamification/domain-story-modeler
+      REGISTRY_PACKAGE_NAME: domain-story-modeler
     steps:
     - uses: actions/checkout@v2
 #     - uses: actions/cache@v2
