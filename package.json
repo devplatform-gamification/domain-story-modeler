@@ -12,7 +12,7 @@
     "test": "karma start",
     "bundle": "grunt build",
     "dev": "grunt auto-build",
-    "all": "run-s lint test bundle"
+    "all": "run-s lint bundle"
   },
   "keywords": [
     "domain storytelling",
